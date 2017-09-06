@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF5551ED1F6036DF009CC36A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5551EC1F6036DF009CC36A /* main.m */; };
+		FF5551F01F6036DF009CC36A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5551EF1F6036DF009CC36A /* AppDelegate.m */; };
+		FF5551F81F6036DF009CC36A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5551F71F6036DF009CC36A /* Assets.xcassets */; };
+		FF5551FB1F6036DF009CC36A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5551F91F6036DF009CC36A /* LaunchScreen.storyboard */; };
+		FF5552291F6036FE009CC36A /* RDVTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552081F6036FE009CC36A /* RDVTabBar.m */; };
+		FF55522A1F6036FE009CC36A /* RDVTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55520A1F6036FE009CC36A /* RDVTabBarController.m */; };
+		FF55522B1F6036FE009CC36A /* RDVTabBarItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55520C1F6036FE009CC36A /* RDVTabBarItem.m */; };
+		FF55522C1F6036FE009CC36A /* UIImage+Image.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55520E1F6036FE009CC36A /* UIImage+Image.m */; };
+		FF55522D1F6036FE009CC36A /* UIView+TWFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552101F6036FE009CC36A /* UIView+TWFrame.m */; };
+		FF55522E1F6036FE009CC36A /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552131F6036FE009CC36A /* MainViewController.m */; };
+		FF55522F1F6036FE009CC36A /* NaviViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552151F6036FE009CC36A /* NaviViewController.m */; };
+		FF5552301F6036FE009CC36A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552191F6036FE009CC36A /* BaseViewController.m */; };
+		FF5552311F6036FE009CC36A /* PartentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55521B1F6036FE009CC36A /* PartentViewController.m */; };
+		FF5552321F6036FE009CC36A /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF55521E1F6036FE009CC36A /* FourViewController.m */; };
+		FF5552331F6036FE009CC36A /* One1ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552201F6036FE009CC36A /* One1ViewController.m */; };
+		FF5552341F6036FE009CC36A /* One2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552221F6036FE009CC36A /* One2ViewController.m */; };
+		FF5552351F6036FE009CC36A /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552241F6036FE009CC36A /* OneViewController.m */; };
+		FF5552361F6036FE009CC36A /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552261F6036FE009CC36A /* ThreeViewController.m */; };
+		FF5552371F6036FE009CC36A /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF5552281F6036FE009CC36A /* TwoViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FF5551E81F6036DF009CC36A /* RDVTabBarController的使用.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RDVTabBarController的使用.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5551EC1F6036DF009CC36A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FF5551EE1F6036DF009CC36A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FF5551EF1F6036DF009CC36A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FF5551F71F6036DF009CC36A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF5551FA1F6036DF009CC36A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF5551FC1F6036DF009CC36A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5552041F6036FE009CC36A /* Define.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Define.h; sourceTree = "<group>"; };
+		FF5552051F6036FE009CC36A /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		FF5552071F6036FE009CC36A /* RDVTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBar.h; sourceTree = "<group>"; };
+		FF5552081F6036FE009CC36A /* RDVTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBar.m; sourceTree = "<group>"; };
+		FF5552091F6036FE009CC36A /* RDVTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarController.h; sourceTree = "<group>"; };
+		FF55520A1F6036FE009CC36A /* RDVTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarController.m; sourceTree = "<group>"; };
+		FF55520B1F6036FE009CC36A /* RDVTabBarItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RDVTabBarItem.h; sourceTree = "<group>"; };
+		FF55520C1F6036FE009CC36A /* RDVTabBarItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RDVTabBarItem.m; sourceTree = "<group>"; };
+		FF55520D1F6036FE009CC36A /* UIImage+Image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Image.h"; sourceTree = "<group>"; };
+		FF55520E1F6036FE009CC36A /* UIImage+Image.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Image.m"; sourceTree = "<group>"; };
+		FF55520F1F6036FE009CC36A /* UIView+TWFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+TWFrame.h"; sourceTree = "<group>"; };
+		FF5552101F6036FE009CC36A /* UIView+TWFrame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+TWFrame.m"; sourceTree = "<group>"; };
+		FF5552121F6036FE009CC36A /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		FF5552131F6036FE009CC36A /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		FF5552141F6036FE009CC36A /* NaviViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NaviViewController.h; sourceTree = "<group>"; };
+		FF5552151F6036FE009CC36A /* NaviViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NaviViewController.m; sourceTree = "<group>"; };
+		FF5552181F6036FE009CC36A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		FF5552191F6036FE009CC36A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		FF55521A1F6036FE009CC36A /* PartentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PartentViewController.h; sourceTree = "<group>"; };
+		FF55521B1F6036FE009CC36A /* PartentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PartentViewController.m; sourceTree = "<group>"; };
+		FF55521D1F6036FE009CC36A /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		FF55521E1F6036FE009CC36A /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
+		FF55521F1F6036FE009CC36A /* One1ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = One1ViewController.h; sourceTree = "<group>"; };
+		FF5552201F6036FE009CC36A /* One1ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = One1ViewController.m; sourceTree = "<group>"; };
+		FF5552211F6036FE009CC36A /* One2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = One2ViewController.h; sourceTree = "<group>"; };
+		FF5552221F6036FE009CC36A /* One2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = One2ViewController.m; sourceTree = "<group>"; };
+		FF5552231F6036FE009CC36A /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		FF5552241F6036FE009CC36A /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		FF5552251F6036FE009CC36A /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		FF5552261F6036FE009CC36A /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		FF5552271F6036FE009CC36A /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		FF5552281F6036FE009CC36A /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF5551E51F6036DF009CC36A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF5551DF1F6036DF009CC36A = {
+			isa = PBXGroup;
+			children = (
+				FF5551EA1F6036DF009CC36A /* RDVTabBarController的使用 */,
+				FF5551E91F6036DF009CC36A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF5551E91F6036DF009CC36A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF5551E81F6036DF009CC36A /* RDVTabBarController的使用.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF5551EA1F6036DF009CC36A /* RDVTabBarController的使用 */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552021F6036FE009CC36A /* Custom */,
+				FF5551EE1F6036DF009CC36A /* AppDelegate.h */,
+				FF5551EF1F6036DF009CC36A /* AppDelegate.m */,
+				FF5551F71F6036DF009CC36A /* Assets.xcassets */,
+				FF5551F91F6036DF009CC36A /* LaunchScreen.storyboard */,
+				FF5551FC1F6036DF009CC36A /* Info.plist */,
+				FF5551EB1F6036DF009CC36A /* Supporting Files */,
+			);
+			path = "RDVTabBarController的使用";
+			sourceTree = "<group>";
+		};
+		FF5551EB1F6036DF009CC36A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FF5551EC1F6036DF009CC36A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FF5552021F6036FE009CC36A /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552031F6036FE009CC36A /* Libs */,
+				FF5552111F6036FE009CC36A /* Main */,
+				FF5552161F6036FE009CC36A /* Vc */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		FF5552031F6036FE009CC36A /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552041F6036FE009CC36A /* Define.h */,
+				FF5552051F6036FE009CC36A /* PrefixHeader.pch */,
+				FF5552061F6036FE009CC36A /* RDVTabBarController */,
+				FF55520D1F6036FE009CC36A /* UIImage+Image.h */,
+				FF55520E1F6036FE009CC36A /* UIImage+Image.m */,
+				FF55520F1F6036FE009CC36A /* UIView+TWFrame.h */,
+				FF5552101F6036FE009CC36A /* UIView+TWFrame.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		FF5552061F6036FE009CC36A /* RDVTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552071F6036FE009CC36A /* RDVTabBar.h */,
+				FF5552081F6036FE009CC36A /* RDVTabBar.m */,
+				FF5552091F6036FE009CC36A /* RDVTabBarController.h */,
+				FF55520A1F6036FE009CC36A /* RDVTabBarController.m */,
+				FF55520B1F6036FE009CC36A /* RDVTabBarItem.h */,
+				FF55520C1F6036FE009CC36A /* RDVTabBarItem.m */,
+			);
+			path = RDVTabBarController;
+			sourceTree = "<group>";
+		};
+		FF5552111F6036FE009CC36A /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552121F6036FE009CC36A /* MainViewController.h */,
+				FF5552131F6036FE009CC36A /* MainViewController.m */,
+				FF5552141F6036FE009CC36A /* NaviViewController.h */,
+				FF5552151F6036FE009CC36A /* NaviViewController.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		FF5552161F6036FE009CC36A /* Vc */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552171F6036FE009CC36A /* P */,
+				FF55521C1F6036FE009CC36A /* V */,
+			);
+			path = Vc;
+			sourceTree = "<group>";
+		};
+		FF5552171F6036FE009CC36A /* P */ = {
+			isa = PBXGroup;
+			children = (
+				FF5552181F6036FE009CC36A /* BaseViewController.h */,
+				FF5552191F6036FE009CC36A /* BaseViewController.m */,
+				FF55521A1F6036FE009CC36A /* PartentViewController.h */,
+				FF55521B1F6036FE009CC36A /* PartentViewController.m */,
+			);
+			path = P;
+			sourceTree = "<group>";
+		};
+		FF55521C1F6036FE009CC36A /* V */ = {
+			isa = PBXGroup;
+			children = (
+				FF55521D1F6036FE009CC36A /* FourViewController.h */,
+				FF55521E1F6036FE009CC36A /* FourViewController.m */,
+				FF55521F1F6036FE009CC36A /* One1ViewController.h */,
+				FF5552201F6036FE009CC36A /* One1ViewController.m */,
+				FF5552211F6036FE009CC36A /* One2ViewController.h */,
+				FF5552221F6036FE009CC36A /* One2ViewController.m */,
+				FF5552231F6036FE009CC36A /* OneViewController.h */,
+				FF5552241F6036FE009CC36A /* OneViewController.m */,
+				FF5552251F6036FE009CC36A /* ThreeViewController.h */,
+				FF5552261F6036FE009CC36A /* ThreeViewController.m */,
+				FF5552271F6036FE009CC36A /* TwoViewController.h */,
+				FF5552281F6036FE009CC36A /* TwoViewController.m */,
+			);
+			path = V;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF5551E71F6036DF009CC36A /* RDVTabBarController的使用 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5551FF1F6036DF009CC36A /* Build configuration list for PBXNativeTarget "RDVTabBarController的使用" */;
+			buildPhases = (
+				FF5551E41F6036DF009CC36A /* Sources */,
+				FF5551E51F6036DF009CC36A /* Frameworks */,
+				FF5551E61F6036DF009CC36A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RDVTabBarController的使用";
+			productName = "RDVTabBarController的使用";
+			productReference = FF5551E81F6036DF009CC36A /* RDVTabBarController的使用.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF5551E01F6036DF009CC36A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "个人";
+				TargetAttributes = {
+					FF5551E71F6036DF009CC36A = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 7F3QQKKLR9;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = FF5551E31F6036DF009CC36A /* Build configuration list for PBXProject "RDVTabBarController的使用" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF5551DF1F6036DF009CC36A;
+			productRefGroup = FF5551E91F6036DF009CC36A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF5551E71F6036DF009CC36A /* RDVTabBarController的使用 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF5551E61F6036DF009CC36A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5551FB1F6036DF009CC36A /* LaunchScreen.storyboard in Resources */,
+				FF5551F81F6036DF009CC36A /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF5551E41F6036DF009CC36A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF55522B1F6036FE009CC36A /* RDVTabBarItem.m in Sources */,
+				FF5552301F6036FE009CC36A /* BaseViewController.m in Sources */,
+				FF55522A1F6036FE009CC36A /* RDVTabBarController.m in Sources */,
+				FF5552331F6036FE009CC36A /* One1ViewController.m in Sources */,
+				FF55522D1F6036FE009CC36A /* UIView+TWFrame.m in Sources */,
+				FF5552311F6036FE009CC36A /* PartentViewController.m in Sources */,
+				FF5552351F6036FE009CC36A /* OneViewController.m in Sources */,
+				FF5552361F6036FE009CC36A /* ThreeViewController.m in Sources */,
+				FF55522E1F6036FE009CC36A /* MainViewController.m in Sources */,
+				FF5552321F6036FE009CC36A /* FourViewController.m in Sources */,
+				FF5551F01F6036DF009CC36A /* AppDelegate.m in Sources */,
+				FF5552371F6036FE009CC36A /* TwoViewController.m in Sources */,
+				FF55522C1F6036FE009CC36A /* UIImage+Image.m in Sources */,
+				FF5551ED1F6036DF009CC36A /* main.m in Sources */,
+				FF55522F1F6036FE009CC36A /* NaviViewController.m in Sources */,
+				FF5552341F6036FE009CC36A /* One2ViewController.m in Sources */,
+				FF5552291F6036FE009CC36A /* RDVTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF5551F91F6036DF009CC36A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5551FA1F6036DF009CC36A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF5551FD1F6036DF009CC36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FF5551FE1F6036DF009CC36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF5552001F6036DF009CC36A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RDVTabBarController的使用/Custom/Libs/PrefixHeader.pch";
+				INFOPLIST_FILE = "RDVTabBarController的使用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Moxi.RDVTabBarController---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF5552011F6036DF009CC36A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7F3QQKKLR9;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RDVTabBarController的使用/Custom/Libs/PrefixHeader.pch";
+				INFOPLIST_FILE = "RDVTabBarController的使用/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Moxi.RDVTabBarController---";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF5551E31F6036DF009CC36A /* Build configuration list for PBXProject "RDVTabBarController的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5551FD1F6036DF009CC36A /* Debug */,
+				FF5551FE1F6036DF009CC36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF5551FF1F6036DF009CC36A /* Build configuration list for PBXNativeTarget "RDVTabBarController的使用" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5552001F6036DF009CC36A /* Debug */,
+				FF5552011F6036DF009CC36A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF5551E01F6036DF009CC36A /* Project object */;
+}
